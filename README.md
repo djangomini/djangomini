@@ -1,4 +1,5 @@
-# Django(mini) - Simplified structure for Django projects
+# Django(mini)
+## Simplified structure for Django projects
 
 This project is a `@decorator` over the [Django](http://djangoproject.com) web framework. We added some improvements to Django, but all what you love in the original Django - remains. You can use Django as you like, but you can save a lot of your valuable time by using some of our tools to have more fun when you developing your new web application,
 
