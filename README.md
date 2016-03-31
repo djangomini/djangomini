@@ -13,4 +13,18 @@ This project is a `@decorator` over the [Django](http://djangoproject.com) web f
 
 Read our **documentation** on [wiki](//github.com/djangomini/djangomini/wiki) pages.
 
+### Development version
+
+If you need to checkout development version and play with it.
+
+- `mkdir ~/workspace && cd ~/workspace`
+- `git clone git@github.com:djangomini/djangomini.git`
+- `mkvirtualenv djangomini --python=$(which python3)`
+- `cd ~/.virtualenvs/djangomini/lib/python3.5/site-packages/`
+- `ln -s ~/workspace/djangomini/djangomini .` - it will create a symlink to a cloned project. You can change files and changes affected automatically
+- `cd ~/workspace/djangomini/test_project`
+- `./manage.py runserver`
+
+-------
+
 Made with ♥️ Love to web development.
