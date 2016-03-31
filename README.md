@@ -42,4 +42,4 @@ If you need to checkout development version and play with it.
 
 -------
 
-Made with ♥️ Love to web development.
+Made with ♥️ Love to web development. | Project stats on [pypi](https://pypi.python.org/pypi/djangomini)
