@@ -13,7 +13,22 @@ This project is a `@decorator` over the [Django](http://djangoproject.com) web f
 
 Read our **documentation** on [wiki](//github.com/djangomini/djangomini/wiki) pages.
 
-### Development version
+## Run test project
+
+We have prepared a test project to help you play with Django(mini).
+
+### Use stable version
+
+If you need to install stable version - run this command: `pip install -U djangomini` (`-U` used to upgrade previously installed version).
+
+- `mkdir ~/workspace && cd ~/workspace`
+- `git clone git@github.com:djangomini/djangomini.git`
+- `mkvirtualenv djangomini --python=$(which python3)`
+- `pip install -U -r requirements.txt`
+- `cd ~/workspace/djangomini/test_project`
+- `./manage.py runserver`
+
+### Use development version
 
 If you need to checkout development version and play with it.
 
@@ -27,4 +42,4 @@ If you need to checkout development version and play with it.
 
 -------
 
-Made with ♥️ Love to web development.
+Made with ♥️ Love to web development. | Project stats on [pypi](https://pypi.python.org/pypi/djangomini)
