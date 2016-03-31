@@ -7,7 +7,7 @@ This project is a `@decorator` over the [Django](http://djangoproject.com) web f
 ### Some features
 
 - **auto-discovered urls** - you don't need to describe urls in the `urls.py`
-- **simplified project structure** with all apps in the `apps` directory
+- **simplified project structure** with **no apps**. Forget about questions like this: *"Where to place this new model class?"*
 - **improved models** allows to write less code and speed-up development
 - all our code based on the **latest version of Django** framework *(from 1.9.x and up)*
 
