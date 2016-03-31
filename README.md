@@ -1,4 +1,4 @@
-# Django.Tips - improved Django web framework
+# Django(mini) - Simplified structure for Django projects
 
 This project is a `@decorator` over the [Django](http://djangoproject.com) web framework. We added some improvements to Django, but all what you love in the original Django - remains. You can use Django as you like, but you can save a lot of your valuable time by using some of our tools to have more fun when you developing your new web application,
 
@@ -9,6 +9,6 @@ This project is a `@decorator` over the [Django](http://djangoproject.com) web f
 - **improved models** allows to write less code and speed-up development
 - all our code based on the **latest version of Django** framework *(from 1.9.x and up)*
 
-Read our **documentation** on [wiki](//github.com/djangotips/djangotips/wiki) pages.
+Read our **documentation** on [wiki](//github.com/djangomini/djangomini/wiki) pages.
 
 Made with ♥️ Love to web development.
