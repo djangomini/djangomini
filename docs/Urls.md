@@ -27,9 +27,9 @@ from djangomini.controllers import Controller
 class AddPollController(Controller):
     """Create new Poll object."""
 
-    def get(self, request):
-        return self.send('Create new poll (show form).')
+    def get(self):
+        return self.html('Create new poll (show form).')
 
-    def post(self, request):
-        return self.send('Create new poll (handle POST request).')
+    def post(self):
+        return self.html('Create new poll (handle POST request).')
 ```
