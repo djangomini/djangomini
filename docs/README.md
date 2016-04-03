@@ -7,8 +7,9 @@ Django(mini) - Documentation
 Table of contents
 ------
 
-* application structure
-* auto-discoverable urls
-* controllers
-* models
-* admin site
+* [Application structure](Application.md)
+* [Auto-discoverable urls](Urls.md)
+* [Controllers](Controllers.md)
+* [Models](Models.md)
+* [Admin site](Admin.md)
+* [List of websites](Websites.md) that build on Django(mini
