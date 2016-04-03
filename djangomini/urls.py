@@ -60,7 +60,7 @@ def auto_discover():
         # we will include main controller at the end
         if app_name == 'main':
             continue
-        # add ulr for each controller
+        # add url for each controller
         for controller in get_controllers(app_name):
             url_path = controller_to_path(controller)
             urls.append(url(
