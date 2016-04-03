@@ -25,3 +25,40 @@ Send file to user. For example, it can be image or any file (PDF, DOc, etc).
 #### `redirect(address)`
 
 Redirect user to new page.
+
+### Examples
+
+```python
+from djangomini.controllers import Controller
+
+
+class MainController(Controller):
+    """Show main page of polls namespace."""
+
+    def get(self):
+        return self.html('Polls home page.')
+
+
+class AddPollController(Controller):
+    """Create new Poll object."""
+
+    def get(self):
+        return self.html('Create new poll (show form).')
+
+    def post(self):
+        return self.html('Create new poll (handle POST request).')
+
+
+class ViewPollController(Controller):
+    """Show one Poll object."""
+
+    def get(self):
+        return self.html('Show selected Poll object.')
+
+
+class ViewPollsController(Controller):
+    """Show list of Poll objects."""
+
+    def get(self):
+        return self.html('Show list of polls (with pagination).')
+```
