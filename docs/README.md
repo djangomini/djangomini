@@ -12,4 +12,4 @@ Table of contents
 * [Controllers](Controllers.md)
 * [Models](Models.md)
 * [Admin site](Admin.md)
-* [List of websites](Websites.md) that build on Django(mini
+* [List of websites](Websites.md) that build on Django(mini)
