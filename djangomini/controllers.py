@@ -21,6 +21,8 @@ class Controller(View):
         """
         Redefine parent's method.
 
+        Called on each new request from user.
+
         Main difference between Django's approach and ours - we don't push
         a 'request' to a method call. We use 'self.request' instead.
         """
