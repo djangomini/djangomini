@@ -2,7 +2,7 @@
 
 ### Infrastructure for rapid development on Django
 
-This project is a `@decorator` over the [Django](http://djangoproject.com) web framework. We made some improvements, but all what you love in the original **Django** - remains. You can use it as you like, but you can save a lot of your valuable time by using some of our tools to have more fun when you developing your new web application,
+This project is a layer over the [Django](http://djangoproject.com) web framework. We made some improvements, but all what you love in the original **Django** - remains. You can use it as you like, but you can save a lot of your valuable time by using some of our tools to have more fun when you developing your new web application,
 
 ### Some features
 
