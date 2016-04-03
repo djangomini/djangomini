@@ -6,7 +6,7 @@ We don't have support of Django pluggable applications, and you will see that it
 
 ### Project structure looks like this
 
-```
+```sh
 myapplication/
 ..controllers/    # django views renamed to controllers
 ....blogs.py
