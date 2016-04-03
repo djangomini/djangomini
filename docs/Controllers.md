@@ -29,6 +29,7 @@ Redirect user to new page.
 ### Examples
 
 ```python
+# controllers/polls.py
 from djangomini.controllers import Controller
 
 
