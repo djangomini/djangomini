@@ -4,6 +4,8 @@
 
 This project is a layer over the [Django](http://djangoproject.com) web framework. We made some improvements, but all what you love in the original **Django** - remains. You can use it as you like, but you can save a lot of your valuable time by using some of our tools to have more fun when you developing your new web application,
 
+**Note.** We use Python 3.5 in our development process. It's good time to switch from Python 2.x to modern version of your favorite tool.
+
 ### Some features
 
 - **auto-discovered urls** - you don't need to describe urls in the `urls.py`
