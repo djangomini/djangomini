@@ -15,6 +15,7 @@ class Controller(View):
     """
 
     request = None
+    # TODO: implement logic to validate input params
     url_params = None
 
     def dispatch(self, request, *args, **kwargs):
