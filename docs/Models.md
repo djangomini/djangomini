@@ -6,7 +6,7 @@ We added few useful additions to Django Models.
 
 You can specify data validation in easy way when defining model `Field`. By default in Django Model Field you need to use `validators` property to pass a list of validators. In our implementation you need to pass extra properties with `validate_` prefix.
 
-**Examples:**
+### Examples:
 
 ```python
 from djangotips.db import models
