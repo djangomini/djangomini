@@ -48,6 +48,7 @@ def auto_discover():
         # transform words to a url address
         url_path = '_'.join(words).lower()
         # main controller is a root handler
+        # TODO: root address inside the file should always come last
         if url_path == 'main':
             url_path = ''
         return url_path

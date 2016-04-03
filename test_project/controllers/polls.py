@@ -5,17 +5,17 @@ class MainController(Controller):
     """Show main page of polls namespace."""
 
     def get(self, request):
-        return self.send('Polls home page.')
+        return self.html('Polls home page.')
 
 
 class AddPollController(Controller):
     """Create new Poll object."""
 
     def get(self, request):
-        return self.send('Create new poll (show form).')
+        return self.html('Create new poll (show form).')
 
     def post(self, request):
-        return self.send('Create new poll (handle POST request).')
+        return self.html('Create new poll (handle POST request).')
 
 
 class ViewPollController(Controller):
@@ -24,7 +24,7 @@ class ViewPollController(Controller):
     url_params = [':int']
 
     def get(self, request):
-        return self.send('Show selected Poll object.')
+        return self.html('Show selected Poll object.')
 
 
 class ViewPollsController(Controller):
@@ -33,4 +33,4 @@ class ViewPollsController(Controller):
     url_params = [':int', 'page', ':int']
 
     def get(self, request):
-        return self.send('Show list of polls (with pagination).')
+        return self.html('Show list of polls (with pagination).')
