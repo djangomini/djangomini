@@ -36,7 +36,7 @@ class Controller(View):
         # we changed only this line - removed first 'request' argument
         return handler(*args, **kwargs)
 
-    def html(self, data, template=None):
+    def html(self, data=None, template=None):
         """
         Send html document to user.
 
@@ -44,6 +44,8 @@ class Controller(View):
         - data: Dict to render template, or string with rendered HTML.
         - template: Name of template to render HTML document with passed data.
         """
+        if data is None:
+            data = {}
         if template:
             return render(self.request, template, data)
         return HttpResponse(data)

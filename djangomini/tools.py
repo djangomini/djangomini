@@ -27,7 +27,7 @@ def listdir(dir_name, get_dirs=None, get_files=None, hide_ignored=False):
         get_dirs = True
         get_files = True
 
-    source_dir = os.path.join(settings.BASE_DIR, dir_name)
+    source_dir = os.path.join(settings.BASE_DIR, 'app', dir_name)
 
     dirs = []
 

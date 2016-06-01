@@ -22,7 +22,7 @@ except ImportError:
     from distutils.core import setup
 
 
-version = '1.0.0a2'
+version = '1.0.0b2'
 
 
 setup(
@@ -36,7 +36,7 @@ setup(
     keywords='django web framework',
     long_description=__doc__,
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',

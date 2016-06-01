@@ -23,7 +23,7 @@ def auto_discover():
     # in separate files
     def get_controllers(module_name):
         """Return list of controllers in a module."""
-        module = import_module('controllers.{}'.format(module_name))
+        module = import_module('app.controllers.{}'.format(module_name))
         controllers = []
         for obj_name in dir(module):
             # we ignore import of Controller and hidden names
