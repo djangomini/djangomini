@@ -22,7 +22,7 @@ except ImportError:
     from distutils.core import setup
 
 
-version = '1.0.0b2'
+version = '1.0.0b5'
 
 
 setup(
