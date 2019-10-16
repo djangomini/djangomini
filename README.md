@@ -23,12 +23,12 @@ We have prepared a test project to help you play with Django(mini).
 
 If you need to install stable version - run this command: `pip install -U djangomini` (`-U` used to upgrade previously installed version).
 
-Try to use our [sample project](https://github.com/djangomini/new_project) to get ready to work djangomini project with default configuration.
+Try to use our [sample project](https://github.com/djangomini/project_template) to get ready to work djangomini project with default configuration.
 
 - `mkdir ~/workspace && cd ~/workspace`
-- `git clone git@github.com:djangomini/new_project.git`
-- `mkvirtualenv djangomini --python=$(which python3)`
-- `cd new_project`
+- `git clone git@github.com:djangomini/project_template.git my_project`
+- `mkvirtualenv my_project --python=$(which python3)`
+- `cd my_project`
 - `pip install -U -r requirements.txt`
 - `python manage.py runserver`
 
@@ -42,7 +42,7 @@ If you need to checkout development version and play with it.
 - `cd ~/.virtualenvs/djangomini/lib/python3.5/site-packages/`
 - `ln -s ~/workspace/djangomini/djangomini .` - it will create a symlink to a cloned project. You can change files and changes appear automatically in your test project that used `djangomini`
 - `cd ~/workspace/new_project`
-- `./manage.py runserver`
+- `python manage.py runserver`
 
 -------
 
